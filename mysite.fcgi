@@ -4,8 +4,8 @@ import sys
 import os
  
 sys.path.insert(0, "/home2/jonesvsf/local_usr/lib/python2.7/site-packages")
-sys.path.append("/home2/jonesvsf/public_html/sjonesphoto/mysite")
-sys.path.append("/home2/jonesvsf/public_html/sjonesphoto/mysite/mysite")
+sys.path.append("/home2/jonesvsf/public_html/hermes/mysite")
+sys.path.append("/home2/jonesvsf/public_html/hermes/mysite/mysite")
  
 os.environ["DJANGO_SETTINGS_MODULE"] = "mysite.settings"
  
