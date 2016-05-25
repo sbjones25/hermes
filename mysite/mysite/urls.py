@@ -12,7 +12,7 @@ from django.conf.urls import include, url, patterns
 from django.contrib import admin
 
 urlpatterns = [
-	url(r'^stockcheck/', include('stockcheck.urls')),
+    url(r'^stockcheck/', include('stockcheck.urls')),
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
 ]
